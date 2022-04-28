@@ -5,7 +5,10 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target in
 
 Config.BossMenus = {
     ['police'] = {
-        vector3(461.45, -986.2, 30.73),
+        [1] = vector3(460.65, -985.52, 30.73), -- LSPD
+        [2] = vector3(1849.19, 3695.63, 38.22), -- BCSO
+        [3] = vector3(-432.3, 6003.94, 31.72), -- PALETO
+        [4] = vector3(1539.4, 815.78, 82.13), -- SAHP
     },
     ['ambulance'] = {
         vector3(335.46, -594.52, 43.28),
@@ -22,11 +25,20 @@ Config.BossMenus = {
     ['mechanic'] = {
         vector3(-339.53, -156.44, 44.59),
     },
+    ['firefighter'] = {
+        vector3(-616.61, -97.62, 45.64),
+    },
+    ['burgershot'] = {
+        vector3(-1192.68, -898.47, 14.0),
+    },
 }
 
 Config.BossMenuZones = {
     ['police'] = {
-        { coords = vector3(461.45, -986.2, 30.73), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
+        [1] = { coords = vector3(460.65, -985.52, 30.73), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
+        [2] = { coords = vector3(1849.19, 3695.63, 38.22), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
+        [3] = { coords = vector3(-432.3, 6003.94, 31.72), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
+        [4] = { coords = vector3(1539.4, 815.78, 82.13), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
     },
     ['ambulance'] = {
         { coords = vector3(335.46, -594.52, 43.28), length = 1.2, width = 0.6, heading = 341.0, minZ = 43.13, maxZ = 43.73 },
@@ -43,30 +55,43 @@ Config.BossMenuZones = {
     ['mechanic'] = {
         { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
     },
+    ['lsfd'] = {
+        { coords = vector3(-616.61, -97.62, 45.64), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
+    },
 }
 
 Config.GangMenus = {
     ['lostmc'] = {
-        vector3(0, 0, 0),
+        vector3(977.93, -95.21, 74.87),
     },
     ['ballas'] = {
-        vector3(0,0, 0),
+        vector3(80.04, -1964.4, 18.04),
     },
     ['vagos'] = {
-        vector3(0, 0, 0),
+        vector3(26.6, 6477.86, 31.88),
     },
     ['cartel'] = {
-        vector3(0, 0, 0),
+        vector3(1997.49, 3046.71, 50.51),
     },
     ['families'] = {
-        vector3(0, 0, 0),
+        vector3(-804.47, 177.54, 75.83),
     },
 }
 
 Config.GangMenuZones = {
-    --[[
-    ['gangname'] = {
-        { coords = vector3(0.0, 0.0, 0.0), length = 0.0, width = 0.0, heading = 0.0, minZ = 0.0, maxZ = 0.0 },
+    ['lostmc'] = {
+        { coords = vector3(977.93, -95.21, 74.87), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
     },
-    ]]
+    ['ballas'] = {
+        { coords = vector3(80.04, -1964.4, 18.04), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
+    },
+    ['vagos'] = {
+        { coords = vector3(26.6, 6477.86, 31.88), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
+    },
+    ['cartel'] = {
+        { coords = vector3(1997.49, 3046.71, 50.51), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
+    },
+    ['families'] = {
+        { coords = vector3(-804.47, 177.54, 75.83), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
+    },
 }
