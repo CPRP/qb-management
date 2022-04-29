@@ -11,7 +11,8 @@ Config.BossMenus = {
         [4] = vector3(1539.4, 815.78, 82.13), -- SAHP
     },
     ['ambulance'] = {
-        vector3(335.46, -594.52, 43.28),
+        [1] = vector3(335.46, -594.52, 43.28),
+        [2] = vector3(-616.48, -97.2, 45.64)
     },
     ['realestate'] = {
         vector3(-716.11, 261.21, 84.14),
@@ -24,9 +25,6 @@ Config.BossMenus = {
     },
     ['mechanic'] = {
         vector3(-339.53, -156.44, 44.59),
-    },
-    ['firefighter'] = {
-        vector3(-616.61, -97.62, 45.64),
     },
     ['burgershot'] = {
         vector3(-1192.68, -898.47, 14.0),
@@ -57,9 +55,6 @@ Config.BossMenuZones = {
     },
     ['mechanic'] = {
         { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
-    },
-    ['firefighter'] = {
-        { coords = vector3(-616.61, -97.62, 45.64), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
     },
     ['burgershot'] = {
         { coords = vector3(-1192.68, -898.47, 14.0), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
