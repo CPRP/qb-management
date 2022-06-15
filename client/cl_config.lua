@@ -32,6 +32,9 @@ Config.BossMenus = {
     ['planepilot'] = {
         vector3(-1621.68, -3152.76, 13.99),
     },
+    ['vanilla'] = {
+        vector3(95.36, -1293.61, 29.64),
+    },
 }
 
 Config.BossMenuZones = {
@@ -61,6 +64,9 @@ Config.BossMenuZones = {
     -- },
     ['planepilot'] = {
         { coords = vector3(-1621.68, -3152.76, 13.99), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
+    },
+    ['vanilla'] = {
+        { coords = vector3(95.36, -1293.61, 29.64), length = 0.35, width = 0.45, heading = 351.0, minZ = 37.58, maxZ = 31.68 } ,
     },
 }
 
