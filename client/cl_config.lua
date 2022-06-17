@@ -26,14 +26,17 @@ Config.BossMenus = {
     ['mechanic'] = {
         vector3(-339.53, -156.44, 44.59),
     },
-    -- ['burgershot'] = {
-    --     vector3(-1178.91, -894.57, 13.97),
-    -- },
+    ['burgershot'] = {
+        vector3(-1178.91, -894.57, 13.97),
+    },
     ['planepilot'] = {
         vector3(-1621.68, -3152.76, 13.99),
     },
     ['vanilla'] = {
         vector3(95.36, -1293.61, 29.64),
+    },
+    ['tequilala'] = {
+        vector3(-561.27, 289.53, 82.18),
     },
 }
 
@@ -59,14 +62,17 @@ Config.BossMenuZones = {
     ['mechanic'] = {
         { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
     },
-    -- ['burgershot'] = {
-    --     { coords = vector3(-1178.91, -894.57, 13.97), length = 0.35, width = 0.45, heading = 351.0, minZ = 10.58, maxZ = 16.68 } ,
-    -- },
+    ['burgershot'] = {
+        { coords = vector3(-1178.91, -894.57, 13.97), length = 0.35, width = 0.45, heading = 351.0, minZ = 10.58, maxZ = 16.68 } ,
+    },
     ['planepilot'] = {
         { coords = vector3(-1621.68, -3152.76, 13.99), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
     },
     ['vanilla'] = {
         { coords = vector3(95.36, -1293.61, 29.64), length = 0.35, width = 0.45, heading = 351.0, minZ = 37.58, maxZ = 31.68 } ,
+    },
+    ['tequilala'] = {
+        { coords = vector3(-561.27, 289.53, 82.18), length = 0.35, width = 0.45, heading = 351.0, minZ = 79.58, maxZ = 85.68 } ,
     },
 }
 
