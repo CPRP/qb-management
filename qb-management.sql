@@ -25,3 +25,4 @@ INSERT INTO `management_funds` (`job_name`, `amount`, `type`) VALUES
 ('yellowgang', 0, 'gang'),
 ('devilssons', 0, 'gang'),
 ('thesaints', 0, 'gang'),
+('diamondmafia', 0, 'gang'),
