@@ -21,23 +21,23 @@ Config.BossMenus = {
         vector3(907.24, -150.19, 74.17),
     },
     ['cardealer'] = {
-        vector3(-1250.87, -345.9, 37.33),
+        vector3(-788.98, -216.2, 37.08),
     },
     ['mechanic'] = {
         vector3(-339.53, -156.44, 44.59),
     },
-    ['burgershot'] = {
-        vector3(-1178.91, -894.57, 13.97),
-    },
+    -- ['burgershot'] = {
+    --     vector3(-1178.91, -894.57, 13.97),
+    -- },
     ['planepilot'] = {
         vector3(-1621.68, -3152.76, 13.99),
     },
-    ['vanilla'] = {
-        vector3(95.36, -1293.61, 29.64),
-    },
-    ['tequilala'] = {
-        vector3(-561.27, 289.53, 82.18),
-    },
+    -- ['vanilla'] = {
+    --     vector3(95.36, -1293.61, 29.64),
+    -- },
+    -- ['tequilala'] = {
+    --     vector3(-561.27, 289.53, 82.18),
+    -- },
 }
 
 Config.BossMenuZones = {
@@ -57,31 +57,31 @@ Config.BossMenuZones = {
         { coords = vector3(907.24, -150.19, 74.17), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
     },
     ['cardealer'] = {
-        { coords = vector3(-1250.87, -345.9, 37.33), length = 2.4, width = 1.05, heading = 340.0, minZ = 35.07, maxZ = 39.67 },
+        { coords = vector3(-788.98, -216.2, 37.08), length = 2.4, width = 1.05, heading = 340.0, minZ = 34.07, maxZ = 40.67 },
     },
     ['mechanic'] = {
         { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
     },
-    ['burgershot'] = {
-        { coords = vector3(-1178.91, -894.57, 13.97), length = 0.35, width = 0.45, heading = 351.0, minZ = 10.58, maxZ = 16.68 } ,
-    },
+    -- ['burgershot'] = {
+    --     { coords = vector3(-1178.91, -894.57, 13.97), length = 0.35, width = 0.45, heading = 351.0, minZ = 10.58, maxZ = 16.68 } ,
+    -- },
     ['planepilot'] = {
         { coords = vector3(-1621.68, -3152.76, 13.99), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
     },
-    ['vanilla'] = {
-        { coords = vector3(95.36, -1293.61, 29.64), length = 0.35, width = 0.45, heading = 351.0, minZ = 37.58, maxZ = 31.68 } ,
-    },
-    ['tequilala'] = {
-        { coords = vector3(-561.27, 289.53, 82.18), length = 0.35, width = 0.45, heading = 351.0, minZ = 79.58, maxZ = 85.68 } ,
-    },
+    -- ['vanilla'] = {
+    --     { coords = vector3(95.36, -1293.61, 29.64), length = 0.35, width = 0.45, heading = 351.0, minZ = 37.58, maxZ = 31.68 } ,
+    -- },
+    -- ['tequilala'] = {
+    --     { coords = vector3(-561.27, 289.53, 82.18), length = 0.35, width = 0.45, heading = 351.0, minZ = 79.58, maxZ = 85.68 } ,
+    -- },
 }
 
 Config.GangMenus = {
     ['yellowgang'] = {
         vector3(977.93, -95.21, 74.87),
     },
-    ['ballas'] = {
-        vector3(80.04, -1964.4, 18.04),
+    ['diamondmafia'] = {
+        vector3(1397.93, 1153.13, 114.33),
     },
     ['vagos'] = {
         vector3(26.6, 6477.86, 31.88),
@@ -98,8 +98,8 @@ Config.GangMenuZones = {
     ['yellowgang'] = {
         { coords = vector3(977.93, -95.21, 74.87), length = 1.0, width = 3.4, heading = 327.0, minZ = 72.17, maxZ = 76.57 },
     },
-    ['ballas'] = {
-        { coords = vector3(80.04, -1964.4, 18.04), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
+    ['diamondmafia'] = {
+        { coords = vector3(1397.93, 1153.13, 114.33), length = 1.0, width = 3.4, heading = 327.0, minZ = 111.17, maxZ = 118.57 },
     },
     ['vagos'] = {
         { coords = vector3(26.6, 6477.86, 31.88), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
