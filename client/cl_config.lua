@@ -21,7 +21,7 @@ Config.BossMenus = {
         vector3(907.24, -150.19, 74.17),
     },
     ['cardealer'] = {
-        vector3(-788.98, -216.2, 37.08),
+        vector3(144.54, -1100.43, 29.2),
     },
     ['mechanic'] = {
         vector3(-339.53, -156.44, 44.59),
@@ -57,7 +57,7 @@ Config.BossMenuZones = {
         { coords = vector3(907.24, -150.19, 74.17), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
     },
     ['cardealer'] = {
-        { coords = vector3(-788.98, -216.2, 37.08), length = 2.4, width = 1.05, heading = 340.0, minZ = 34.07, maxZ = 40.67 },
+        { coords = vector3(144.54, -1100.43, 29.2), length = 2.4, width = 1.05, heading = 340.0, minZ = 26.07, maxZ = 32.67 },
     },
     ['mechanic'] = {
         { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
