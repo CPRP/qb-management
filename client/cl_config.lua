@@ -5,14 +5,17 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target in
 
 Config.BossMenus = {
     ['police'] = {
-        [1] = vector3(460.65, -985.52, 30.73), -- LSPD
-        [2] = vector3(1849.19, 3695.63, 38.22), -- BCSO
-        [3] = vector3(-432.3, 6003.94, 31.72), -- PALETO
-        [4] = vector3(1539.4, 815.78, 82.13), -- SAHP
+        [1] = vector3(460.65, -985.52, 30.73), -- MRPD
+        [2] = vector3(1824.91, 3671.97, 38.86), -- Sandy PD
+        [3] = vector3(-432.94, 6006.01, 37.0), -- Paleto PD
+        [4] = vector3(1539.4, 815.78, 82.13), -- SASP
+        [5] = vector3(358.93, -1590.69, 31.05), -- Davis PS
+        [6] = vector3(856.63, -1299.91, 28.26), -- La Mesa PD
     },
     ['ambulance'] = {
-        [1] = vector3(335.46, -594.52, 43.28),
-        [2] = vector3(-616.48, -97.2, 45.64)
+        [1] = vector3(335.46, -594.52, 43.28), -- Pillbox Hospital
+        [2] = vector3(-1830.36, -341.95, 49.47), -- Ocean Hospital
+        [3] = vector3(-257.73, 6332.18, 32.43), -- Paleto Hospital
     },
     ['realestate'] = {
         vector3(-716.11, 261.21, 84.14),
@@ -36,13 +39,17 @@ Config.BossMenus = {
 
 Config.BossMenuZones = {
     ['police'] = {
-        [1] = { coords = vector3(460.65, -985.52, 30.73), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
-        [2] = { coords = vector3(1849.19, 3695.63, 38.22), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
-        [3] = { coords = vector3(-432.3, 6003.94, 31.72), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
-        [4] = { coords = vector3(1539.4, 815.78, 82.13), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
+        [1] = { coords = vector3(460.65, -985.52, 30.73), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 }, -- MRPD
+        [2] = { coords = vector3(1824.91, 3671.97, 38.86), length = 0.35, width = 0.45, heading = 351.0, minZ = 36.58, maxZ = 40.68 }, -- Sandy PD
+        [3] = { coords = vector3(-432.94, 6006.01, 37.0), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 }, -- Paleto PD
+        [4] = { coords = vector3(1539.4, 815.78, 82.13), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 }, -- SASP
+        [5] = { coords = vector3(358.93, -1590.69, 31.05), length = 0.35, width = 0.45, heading = 351.0, minZ = 29.58, maxZ = 33.68 }, -- Davis PS
+        [6] = { coords = vector3(856.63, -1299.91, 28.26), length = 0.35, width = 0.45, heading = 351.0, minZ = 26.58, maxZ = 30.68 }, -- La Mesa PD
     },
     ['ambulance'] = {
-        { coords = vector3(335.46, -594.52, 43.28), length = 1.2, width = 0.6, heading = 341.0, minZ = 43.13, maxZ = 43.73 },
+        [1] = { coords = vector3(335.46, -594.52, 43.28), length = 1.2, width = 0.6, heading = 341.0, minZ = 43.13, maxZ = 43.73 }, -- Pillbox Hospital
+        [2] = { coords = vector3(-1830.36, -341.95, 49.47), length = 1.2, width = 0.6, heading = 341.0, minZ = 47.13, maxZ = 51.73 }, -- Ocean Hospital
+        [3] = { coords = vector3(-257.73, 6332.18, 32.43), length = 1.2, width = 0.6, heading = 341.0, minZ = 30.13, maxZ = 34.73 }, -- Paleto Hospital
     },
     ['realestate'] = {
         { coords = vector3(-716.11, 261.21, 84.14), length = 0.6, width = 1.0, heading = 25.0, minZ = 83.943, maxZ = 84.74 },
