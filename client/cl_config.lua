@@ -75,8 +75,8 @@ Config.GangMenus = {
     ['yellowgang'] = {
         vector3(977.93, -95.21, 74.87),
     },
-    ['diamondmafia'] = {
-        vector3(1397.93, 1153.13, 114.33),
+    ['demons'] = {
+        vector3(-117.26, 981.89, 228.17),
     },
     ['vagos'] = {
         vector3(26.6, 6477.86, 31.88),
@@ -93,7 +93,7 @@ Config.GangMenuZones = {
     ['yellowgang'] = {
         { coords = vector3(977.93, -95.21, 74.87), length = 1.0, width = 3.4, heading = 327.0, minZ = 72.17, maxZ = 76.57 },
     },
-    ['diamondmafia'] = {
+    ['demons'] = {
         { coords = vector3(1397.93, 1153.13, 114.33), length = 1.0, width = 3.4, heading = 327.0, minZ = 111.17, maxZ = 118.57 },
     },
     ['vagos'] = {
