@@ -81,8 +81,8 @@ Config.GangMenus = {
     ['vagos'] = {
         vector3(26.6, 6477.86, 31.88),
     },
-    ['devilssons'] = {
-        vector3(1997.49, 3046.71, 50.51),
+    ['ogmafia'] = {
+        vector3(-1566.27, -408.27, 52.22),
     },
     ['thesaints'] = {
         vector3(-812.31, 177.9, 76.74),
@@ -99,8 +99,8 @@ Config.GangMenuZones = {
     ['vagos'] = {
         { coords = vector3(26.6, 6477.86, 31.88), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
     },
-    ['devilssons'] = {
-        { coords = vector3(1997.49, 3046.71, 50.51), length = 1.0, width = 3.4, heading = 327.0, minZ = 46.17, maxZ = 54.57 },
+    ['ogmafia'] = {
+        { coords = vector3(-1566.27, -408.27, 52.22), length = 1.0, width = 3.4, heading = 327.0, minZ = 50.17, maxZ = 54.57 },
     },
     ['thesaints'] = {
         { coords = vector3(-812.31, 177.9, 76.74), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 79.57 },
