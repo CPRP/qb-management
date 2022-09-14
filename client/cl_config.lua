@@ -29,6 +29,9 @@ Config.BossMenus = {
     ['ottos'] = {
         vector3(797.96, -830.31, 26.34),
     },
+    ['sanders'] = {
+        vector3(274.19, -1153.74, 33.27),
+    },
     ['mechanic'] = {
         vector3(-339.53, -156.44, 44.59),
     },
@@ -62,6 +65,9 @@ Config.BossMenuZones = {
     },
     ['ottos'] = {
         { coords = vector3(797.96, -830.31, 26.34), length = 2.4, width = 1.05, heading = 340.0, minZ = 23.07, maxZ = 29.67 },
+    },
+    ['sanders'] = {
+        { coords = vector3(274.19, -1153.74, 33.27), length = 2.4, width = 1.05, heading = 292.0, minZ = 30.07, maxZ = 36.67 },
     },
     ['mechanic'] = {
         { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
