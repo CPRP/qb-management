@@ -30,7 +30,7 @@ Config.BossMenus = {
         vector3(797.96, -830.31, 26.34),
     },
     ['sanders'] = {
-        vector3(274.19, -1153.74, 33.27),
+        vector3(287.89, -1160.12, 29.29),
     },
     ['mechanic'] = {
         vector3(-339.53, -156.44, 44.59),
@@ -67,7 +67,7 @@ Config.BossMenuZones = {
         { coords = vector3(797.96, -830.31, 26.34), length = 2.4, width = 1.05, heading = 340.0, minZ = 23.07, maxZ = 29.67 },
     },
     ['sanders'] = {
-        { coords = vector3(274.19, -1153.74, 33.27), length = 2.4, width = 1.05, heading = 292.0, minZ = 30.07, maxZ = 36.67 },
+        { coords = vector3(287.89, -1160.12, 29.29), length = 2.4, width = 1.05, heading = 304.32, minZ = 27.07, maxZ = 31.67 },
     },
     ['mechanic'] = {
         { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
@@ -88,7 +88,7 @@ Config.GangMenus = {
         vector3(26.6, 6477.86, 31.88),
     },
     ['ogmafia'] = {
-        vector3(-1566.27, -408.27, 52.22),
+        vector3(-1574.34, -383.58, 52.08),
     },
     ['thesaints'] = {
         vector3(-812.31, 177.9, 76.74),
@@ -106,7 +106,7 @@ Config.GangMenuZones = {
         { coords = vector3(26.6, 6477.86, 31.88), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
     },
     ['ogmafia'] = {
-        { coords = vector3(-1566.27, -408.27, 52.22), length = 1.0, width = 3.4, heading = 327.0, minZ = 50.17, maxZ = 54.57 },
+        { coords = vector3(-1574.34, -383.58, 52.08), length = 1.0, width = 3.4, heading = 350.37, minZ = 50.17, maxZ = 54.57 },
     },
     ['thesaints'] = {
         { coords = vector3(-812.31, 177.9, 76.74), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 79.57 },
