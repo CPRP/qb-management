@@ -19,6 +19,7 @@ Config.BossMenus = {
         [4] = vector3(194.22, -1644.11, 29.8), -- Davis FD
         [5] = vector3(1187.27, -1475.46, 34.86), -- LaMesa FD
         [6] = vector3(1650.08, 3661.74, 35.34), -- Sandy Hospital
+        [7] = vector3(-504.45, -298.6, 42.32), --Mount Zonah
     },
     ['realestate'] = {
         vector3(-716.11, 261.21, 84.14),
@@ -56,9 +57,11 @@ Config.BossMenuZones = {
         [1] = { coords = vector3(335.46, -594.52, 43.28), length = 1.2, width = 0.6, heading = 341.0, minZ = 43.13, maxZ = 43.73 }, -- Pillbox Hospital
         [2] = { coords = vector3(-616.54, -97.5, 45.64), length = 1.2, width = 0.6, heading = 80.13, minZ = 43.13, maxZ = 47.73 }, -- Fire HQ
         [3] = { coords = vector3(-257.73, 6332.18, 32.43), length = 1.2, width = 0.6, heading = 341.0, minZ = 30.13, maxZ = 34.73 }, -- Paleto Hospital
-        [3] = { coords = vector3(194.22, -1644.11, 29.8), length = 1.2, width = 0.6, heading = 229.28, minZ = 27.13, maxZ = 31.73 }, -- Davis FD
-        [3] = { coords = vector3(1187.27, -1475.46, 34.86), length = 1.2, width = 0.6, heading = 277.88, minZ = 32.13, maxZ = 36.73 }, -- LaMesa FD
-        [3] = { coords = vector3(1650.08, 3661.74, 35.34), length = 1.2, width = 0.6, heading = 341.0, minZ = 33.13, maxZ = 37.73 }, -- Sandy Hospital
+        [4] = { coords = vector3(194.22, -1644.11, 29.8), length = 1.2, width = 0.6, heading = 229.28, minZ = 27.13, maxZ = 31.73 }, -- Davis FD
+        [5] = { coords = vector3(1187.27, -1475.46, 34.86), length = 1.2, width = 0.6, heading = 277.88, minZ = 32.13, maxZ = 36.73 }, -- LaMesa FD
+        [6] = { coords = vector3(1650.08, 3661.74, 35.34), length = 1.2, width = 0.6, heading = 341.0, minZ = 33.13, maxZ = 37.73 }, -- Sandy Hospital
+        [7] = { coords = vector3(-504.45, -298.6, 42.32), length = 1.2, width = 0.6, heading = 341.0, minZ = 40.13, maxZ = 44.73 }, -- Mount Zonah
+
     },
     ['realestate'] = {
         { coords = vector3(-716.11, 261.21, 84.14), length = 0.6, width = 1.0, heading = 25.0, minZ = 83.943, maxZ = 84.74 },
