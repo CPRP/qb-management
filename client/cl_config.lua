@@ -16,8 +16,8 @@ Config.BossMenus = {
         [1] = vector3(335.46, -594.52, 43.28), -- Pillbox Hospital
         [2] = vector3(-616.54, -97.5, 45.64), -- Fire HQ
         [3] = vector3(-257.73, 6332.18, 32.43), -- Paleto Hospital
-        [4] = vector3(194.22, -1644.11, 29.8), -- Davis FD
-        [5] = vector3(1187.27, -1475.46, 34.86), -- LaMesa FD
+        [4] = vector3(-389.3, 6108.22, 38.44), -- Paleto FD
+        [5] = vector3(1204.82, -1489.44, 42.47), -- LaMesa FD
         [6] = vector3(1650.08, 3661.74, 35.34), -- Sandy Hospital
         [7] = vector3(-504.45, -298.6, 42.32), --Mount Zonah
     },
