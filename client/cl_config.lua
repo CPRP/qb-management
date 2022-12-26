@@ -42,6 +42,15 @@ Config.BossMenus = {
     ['planepilot'] = {
         vector3(-1621.68, -3152.76, 13.99),
     },
+    ['sandybs'] = {
+        vector3(1597.58, 3756.6, 34.44),
+    },
+    ['mirrorparkbs'] = {
+        vector3(1250.37, -347.17, 69.21),
+    },
+    ['upnatom'] = {
+        vector3(95.49, 293.28, 110.22),
+    },
 }
 
 Config.BossMenuZones = {
@@ -83,6 +92,15 @@ Config.BossMenuZones = {
     },
     ['planepilot'] = {
         { coords = vector3(-1621.68, -3152.76, 13.99), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
+    },
+    ['sandybs'] = {
+        { coords = vector3(1597.58, 3756.6, 34.44), length = 2.4, width = 1.05, heading = 301.92, minZ = 32.58, maxZ = 36.68 } ,
+    },
+    ['mirrorparkbs'] = {
+        { coords = vector3(1250.37, -347.17, 69.21), length = 2.4, width = 1.05, heading = 354.12, minZ = 67.58, maxZ = 71.68 } ,
+    },
+    ['upnatom'] = {
+        { coords = vector3(95.49, 293.28, 110.22), length = 2.4, width = 1.05, heading = 102.01, minZ = 108.58, maxZ = 112.68 } ,
     },
 }
 
