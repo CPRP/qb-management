@@ -62,7 +62,7 @@ Config.BossMenuZones = {
         [4] = { coords = vector3(1539.4, 815.78, 82.13), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 }, -- SASP
         [5] = { coords = vector3(358.93, -1590.69, 31.05), length = 0.35, width = 0.45, heading = 351.0, minZ = 29.58, maxZ = 33.68 }, -- Davis PS
         [6] = { coords = vector3(856.63, -1299.91, 28.26), length = 0.35, width = 0.45, heading = 351.0, minZ = 26.58, maxZ = 30.68 }, -- La Mesa PD
-        [6] = { coords = vector3(386.9, 798.65, 190.49), length = 0.35, width = 0.45, heading = 197.35, minZ = 188.58, maxZ = 192.68 }, -- Park Ranger
+        [7] = { coords = vector3(386.9, 798.65, 190.49), length = 0.35, width = 0.45, heading = 197.35, minZ = 188.58, maxZ = 192.68 }, -- Park Ranger
     },
     ['ambulance'] = {
         [1] = { coords = vector3(335.46, -594.52, 43.28), length = 1.2, width = 0.6, heading = 341.0, minZ = 43.13, maxZ = 43.73 }, -- Pillbox Hospital
@@ -130,9 +130,9 @@ Config.GangMenus = {
 Config.GangMenuZones = {
     ['yellowgang'] = {
         [1] = { coords = vector3(977.93, -95.21, 74.87), length = 1.0, width = 3.4, heading = 327.0, minZ = 72.17, maxZ = 76.57 }, -- Lost MC
-        [2] = { coords = vector3(-286.4, -2672.57, 6.45), length = 1.0, width = 3.4 heading = 222.51, minZ = 4.58, maxZ = 8.68 }, -- Cocaine
-        [3] = { coords = vector3(1754.29, -1603.0, 112.64), length = 1.0, width = 3.4 heading = 12.32, minZ = 110.58, maxZ = 114.68 }, -- Weed
-        [4] = { coords = vector3(1306.1, 4379.3, 38.16), length = 1.0, width = 3.4 heading = 45.96, minZ = 36.58, maxZ = 40.68 }, -- Meth
+        [2] = { coords = vector3(-286.4, -2672.57, 6.45), length = 1.0, width = 3.4, heading = 222.51, minZ = 4.58, maxZ = 8.68 }, -- Cocaine
+        [3] = { coords = vector3(1754.29, -1603.0, 112.64), length = 1.0, width = 3.4, heading = 12.32, minZ = 110.58, maxZ = 114.68 }, -- Weed
+        [4] = { coords = vector3(1306.1, 4379.3, 38.16), length = 1.0, width = 3.4, heading = 45.96, minZ = 36.58, maxZ = 40.68 }, -- Meth
     },
     ['demons'] = {
         { coords = vector3(1397.93, 1153.13, 114.33), length = 1.0, width = 3.4, heading = 327.0, minZ = 111.17, maxZ = 118.57 },
