@@ -31,15 +31,15 @@ Config.BossMenus = {
     ['cardealer'] = {
         vector3(144.54, -1100.43, 29.2),
     },
-    ['ottos'] = {
-        vector3(797.96, -830.31, 26.34),
-    },
+    -- ['ottos'] = {
+    --     vector3(797.96, -830.31, 26.34),
+    -- },
     ['sanders'] = {
         vector3(287.89, -1160.12, 29.29),
     },
-    ['mechanic'] = {
-        vector3(-339.53, -156.44, 44.59),
-    },
+    -- ['mechanic'] = {
+    --     vector3(-339.53, -156.44, 44.59),
+    -- },
     ['planepilot'] = {
         vector3(-1621.68, -3152.76, 13.99),
     },
@@ -52,6 +52,9 @@ Config.BossMenus = {
     ['upnatom'] = {
         vector3(95.49, 293.28, 110.22),
     },
+    -- ['casino'] = {
+    --     vector3(998.03, 55.16, 75.07),
+    -- },
 }
 
 Config.BossMenuZones = {
@@ -83,15 +86,15 @@ Config.BossMenuZones = {
     ['cardealer'] = {
         { coords = vector3(144.54, -1100.43, 29.2), length = 2.4, width = 1.05, heading = 340.0, minZ = 26.07, maxZ = 32.67 },
     },
-    ['ottos'] = {
-        { coords = vector3(797.96, -830.31, 26.34), length = 2.4, width = 1.05, heading = 340.0, minZ = 23.07, maxZ = 29.67 },
-    },
+    -- ['ottos'] = {
+    --     { coords = vector3(797.96, -830.31, 26.34), length = 2.4, width = 1.05, heading = 340.0, minZ = 23.07, maxZ = 29.67 },
+    -- },
     ['sanders'] = {
         { coords = vector3(287.89, -1160.12, 29.29), length = 2.4, width = 1.05, heading = 304.32, minZ = 27.07, maxZ = 31.67 },
     },
-    ['mechanic'] = {
-        { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
-    },
+    -- ['mechanic'] = {
+    --     { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
+    -- },
     ['planepilot'] = {
         { coords = vector3(-1621.68, -3152.76, 13.99), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
     },
@@ -104,6 +107,9 @@ Config.BossMenuZones = {
     ['upnatom'] = {
         { coords = vector3(95.49, 293.28, 110.22), length = 2.4, width = 1.05, heading = 102.01, minZ = 108.58, maxZ = 112.68 } ,
     },
+    -- ['casino'] = {
+    --     { coords = vector3(998.03, 55.16, 75.07), length = 2.4, width = 1.05, heading = 151.05, minZ = 73.58, maxZ = 77.68 } ,
+    -- },
 }
 
 Config.GangMenus = {
@@ -119,7 +125,7 @@ Config.GangMenus = {
     ['vagos'] = {
         vector3(26.6, 6477.86, 31.88),
     },
-    ['ogmafia'] = {
+    ['mantle'] = {
         vector3(-1574.34, -383.58, 52.08),
     },
     ['thesaints'] = {
@@ -140,7 +146,7 @@ Config.GangMenuZones = {
     ['vagos'] = {
         { coords = vector3(26.6, 6477.86, 31.88), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
     },
-    ['ogmafia'] = {
+    ['mantle'] = {
         { coords = vector3(-1574.34, -383.58, 52.08), length = 1.0, width = 3.4, heading = 350.37, minZ = 50.17, maxZ = 54.57 },
     },
     ['thesaints'] = {
