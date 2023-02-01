@@ -122,8 +122,8 @@ Config.GangMenus = {
     ['demons'] = {
         vector3(-117.26, 981.89, 228.17),
     },
-    ['vagos'] = {
-        vector3(26.6, 6477.86, 31.88),
+    ['mafiacrip'] = {
+        vector3(-0.36, -1810.49, 29.15),
     },
     ['mantle'] = {
         vector3(-1574.34, -383.58, 52.08),
@@ -143,8 +143,8 @@ Config.GangMenuZones = {
     ['demons'] = {
         { coords = vector3(1397.93, 1153.13, 114.33), length = 1.0, width = 3.4, heading = 327.0, minZ = 111.17, maxZ = 118.57 },
     },
-    ['vagos'] = {
-        { coords = vector3(26.6, 6477.86, 31.88), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
+    ['mafiacrip'] = {
+        { coords = vector3(-0.36, -1810.49, 29.15), length = 1.0, width = 3.4, heading = 272.89, minZ = 37.17, maxZ = 31.57 },
     },
     ['mantle'] = {
         { coords = vector3(-1574.34, -383.58, 52.08), length = 1.0, width = 3.4, heading = 350.37, minZ = 50.17, maxZ = 54.57 },
