@@ -6,12 +6,8 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target in
 Config.BossMenus = {
     ['police'] = {
         [1] = vector3(460.65, -985.52, 30.73), -- MRPD
-        [2] = vector3(1824.91, 3671.97, 38.86), -- Sandy PD
-        [3] = vector3(-432.94, 6006.01, 37.0), -- Paleto PD
-        [4] = vector3(1539.4, 815.78, 82.13), -- SASP
-        [5] = vector3(358.93, -1590.69, 31.05), -- Davis PS
-        [6] = vector3(856.63, -1299.91, 28.26), -- La Mesa PD
-        [7] = vector3(386.9, 798.65, 190.49), -- Park Ranger
+        [2] = vector3(358.93, -1590.69, 31.05), -- Davis PS
+        [3] = vector3(856.63, -1299.91, 28.26), -- La Mesa PD
     },
     ['ambulance'] = {
         [1] = vector3(335.46, -594.52, 43.28), -- Pillbox Hospital
@@ -22,6 +18,16 @@ Config.BossMenus = {
         [6] = vector3(1650.08, 3661.74, 35.34), -- Sandy Hospital
         [7] = vector3(-504.45, -298.6, 42.32), --Mount Zonah
     },
+    ['bcso'] = {
+        [1] = vector3(1824.91, 3671.97, 38.86), -- Sandy PD
+        [2] = vector3(-432.94, 6006.01, 37.0), -- Paleto PD
+    },
+    ['sasp'] = {
+        vector3(1539.4, 815.78, 82.13), -- SASP
+    },
+    ['sapr'] = {
+        vector3(386.9, 798.65, 190.49), -- Park Ranger
+    },
     ['realestate'] = {
         vector3(-716.11, 261.21, 84.14),
     },
@@ -31,15 +37,9 @@ Config.BossMenus = {
     ['cardealer'] = {
         vector3(144.54, -1100.43, 29.2),
     },
-    -- ['ottos'] = {
-    --     vector3(797.96, -830.31, 26.34),
-    -- },
     ['sanders'] = {
         vector3(287.89, -1160.12, 29.29),
     },
-    -- ['mechanic'] = {
-    --     vector3(-339.53, -156.44, 44.59),
-    -- },
     ['planepilot'] = {
         vector3(-1621.68, -3152.76, 13.99),
     },
@@ -52,20 +52,16 @@ Config.BossMenus = {
     ['upnatom'] = {
         vector3(95.49, 293.28, 110.22),
     },
-    -- ['casino'] = {
-    --     vector3(998.03, 55.16, 75.07),
-    -- },
+    ['insurance'] = {
+        vector3(-1053.67, -230.52, 44.02),
+    },
 }
 
 Config.BossMenuZones = {
     ['police'] = {
         [1] = { coords = vector3(460.65, -985.52, 30.73), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 }, -- MRPD
-        [2] = { coords = vector3(1824.91, 3671.97, 38.86), length = 0.35, width = 0.45, heading = 351.0, minZ = 36.58, maxZ = 40.68 }, -- Sandy PD
-        [3] = { coords = vector3(-432.94, 6006.01, 37.0), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 }, -- Paleto PD
-        [4] = { coords = vector3(1539.4, 815.78, 82.13), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 }, -- SASP
-        [5] = { coords = vector3(358.93, -1590.69, 31.05), length = 0.35, width = 0.45, heading = 351.0, minZ = 29.58, maxZ = 33.68 }, -- Davis PS
-        [6] = { coords = vector3(856.63, -1299.91, 28.26), length = 0.35, width = 0.45, heading = 351.0, minZ = 26.58, maxZ = 30.68 }, -- La Mesa PD
-        [7] = { coords = vector3(386.9, 798.65, 190.49), length = 0.35, width = 0.45, heading = 197.35, minZ = 188.58, maxZ = 192.68 }, -- Park Ranger
+        [2] = { coords = vector3(358.93, -1590.69, 31.05), length = 0.35, width = 0.45, heading = 351.0, minZ = 29.58, maxZ = 33.68 }, -- Davis PS
+        [3] = { coords = vector3(856.63, -1299.91, 28.26), length = 0.35, width = 0.45, heading = 351.0, minZ = 26.58, maxZ = 30.68 }, -- La Mesa PD
     },
     ['ambulance'] = {
         [1] = { coords = vector3(335.46, -594.52, 43.28), length = 1.2, width = 0.6, heading = 341.0, minZ = 43.13, maxZ = 43.73 }, -- Pillbox Hospital
@@ -77,6 +73,16 @@ Config.BossMenuZones = {
         [7] = { coords = vector3(-504.45, -298.6, 42.32), length = 1.2, width = 0.6, heading = 341.0, minZ = 40.13, maxZ = 44.73 }, -- Mount Zonah
 
     },
+    ['bcso'] = {
+        [1] = { coords = vector3(1824.91, 3671.97, 38.86), length = 0.35, width = 0.45, heading = 351.0, minZ = 36.58, maxZ = 40.68 }, -- Sandy PD
+        [2] = { coords = vector3(-432.94, 6006.01, 37.0), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 }, -- Paleto PD
+    },
+    ['sasp'] = {
+        { coords = vector3(1539.4, 815.78, 82.13), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 }, -- SASP
+    },
+    ['sapr'] = {
+        { coords = vector3(386.9, 798.65, 190.49), length = 0.35, width = 0.45, heading = 197.35, minZ = 188.58, maxZ = 192.68 }, -- Park Ranger
+    },
     ['realestate'] = {
         { coords = vector3(-716.11, 261.21, 84.14), length = 0.6, width = 1.0, heading = 25.0, minZ = 83.943, maxZ = 84.74 },
     },
@@ -86,15 +92,9 @@ Config.BossMenuZones = {
     ['cardealer'] = {
         { coords = vector3(144.54, -1100.43, 29.2), length = 2.4, width = 1.05, heading = 340.0, minZ = 26.07, maxZ = 32.67 },
     },
-    -- ['ottos'] = {
-    --     { coords = vector3(797.96, -830.31, 26.34), length = 2.4, width = 1.05, heading = 340.0, minZ = 23.07, maxZ = 29.67 },
-    -- },
     ['sanders'] = {
         { coords = vector3(287.89, -1160.12, 29.29), length = 2.4, width = 1.05, heading = 304.32, minZ = 27.07, maxZ = 31.67 },
     },
-    -- ['mechanic'] = {
-    --     { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
-    -- },
     ['planepilot'] = {
         { coords = vector3(-1621.68, -3152.76, 13.99), length = 0.35, width = 0.45, heading = 351.0, minZ = 30.58, maxZ = 30.68 } ,
     },
@@ -107,9 +107,9 @@ Config.BossMenuZones = {
     ['upnatom'] = {
         { coords = vector3(95.49, 293.28, 110.22), length = 2.4, width = 1.05, heading = 102.01, minZ = 108.58, maxZ = 112.68 } ,
     },
-    -- ['casino'] = {
-    --     { coords = vector3(998.03, 55.16, 75.07), length = 2.4, width = 1.05, heading = 151.05, minZ = 73.58, maxZ = 77.68 } ,
-    -- },
+    ['insurance'] = {
+        { coords = vector3(-1053.67, -230.52, 44.02), length = 2.4, width = 1.05, heading = 233.85, minZ = 40.58, maxZ = 48.68 } ,
+    },
 }
 
 Config.GangMenus = {
